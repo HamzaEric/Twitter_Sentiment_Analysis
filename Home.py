@@ -37,16 +37,6 @@ def main():
         st.image('emotions.jpg')
 
     st.markdown("---")
-    st.subheader('Introduction')
-
-    st.write(''' 
-    This Sentiment Analysis App uses a machine learning model to classify tweets based on emotions
-    as either positive or negative. The model is trained on a dataset of labeled tweets, 
-    and after preprocessing (using TF-IDF), it learns to distinguish sentiment in text.
-    When a user submits a tweet, the app predicts whether it has a positive or negative sentiment.
-    ''')
-    st.markdown("---")
-
     st.header('How Sentiment Analysis Works')
 
     st.write(''' 
