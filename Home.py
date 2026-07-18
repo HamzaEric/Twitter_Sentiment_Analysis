@@ -34,7 +34,7 @@ def main():
     with col1:
         st.image('X.jpg')
     with col2:
-        st.title('Twitter Sentiment Analyzer')
+        st.image('emotions.jpg')
 
     st.markdown("---")
     st.subheader('Introduction')
@@ -57,12 +57,8 @@ def main():
     ''')
     st.markdown("---")
 
-    # Display images
-    col1, col2 = st.columns(2)
-    with col1:
-        st.image('emotions.jpg')
-    with col2:
-        st.header('Twitter Sentiment Analysis using Machine Learning')
+    
+    st.header('Twitter Sentiment Analysis using Machine Learning')
 
     # User input for the tweet to analyze
     user_tweet = st.text_area('Enter the tweet to check sentiment:')
