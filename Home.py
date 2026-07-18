@@ -48,7 +48,7 @@ def main():
     st.markdown("---")
 
     
-    st.header('Twitter Sentiment Analysis using Machine Learning')
+    st.markdown('##### Twitter Sentiment Analysis using Machine Learning')
 
     # User input for the tweet to analyze
     user_tweet = st.text_area('Enter the tweet to check sentiment:')
